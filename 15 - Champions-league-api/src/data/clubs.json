@@ -1,0 +1,130 @@
+[
+    {
+        "id": 1,
+        "name": "flamengo"
+    },
+    {
+        "id": 2,
+        "name": "man utd"
+    },
+    {
+        "id": 3,
+        "name": "real madrid"
+    },
+    {
+        "id": 4,
+        "name": "barcelona"
+    },
+    {
+        "id": 5,
+        "name": "bayern munich"
+    },
+    {
+        "id": 6,
+        "name": "chelsea"
+    },
+    {
+        "id": 7,
+        "name": "juventus"
+    },
+    {
+        "id": 8,
+        "name": "paris saint-germain"
+    },
+    {
+        "id": 9,
+        "name": "liverpool"
+    },
+    {
+        "id": 10,
+        "name": "man city"
+    },
+    {
+        "id": 11,
+        "name": "atletico madrid"
+    },
+    {
+        "id": 12,
+        "name": "inter milan"
+    },
+    {
+        "id": 13,
+        "name": "ac milan"
+    },
+    {
+        "id": 14,
+        "name": "borussia dortmund"
+    },
+    {
+        "id": 15,
+        "name": "ajax"
+    },
+    {
+        "id": 16,
+        "name": "porto"
+    },
+    {
+        "id": 17,
+        "name": "benfica"
+    },
+    {
+        "id": 18,
+        "name": "sevilla"
+    },
+    {
+        "id": 19,
+        "name": "rb leipzig"
+    },
+    {
+        "id": 20,
+        "name": "shakhtar donetsk"
+    },
+    {
+        "id": 21,
+        "name": "atalanta"
+    },
+    {
+        "id": 22,
+        "name": "zenit"
+    },
+    {
+        "id": 23,
+        "name": "lazio"
+    },
+    {
+        "id": 24,
+        "name": "mönchengladbach"
+    },
+    {
+        "id": 25,
+        "name": "lokomotiv moscow"
+    },
+    {
+        "id": 26,
+        "name": "salzburg"
+    },
+    {
+        "id": 27,
+        "name": "olympiacos"
+    },
+    {
+        "id": 28,
+        "name": "dinamo kiev"
+    },
+    {
+        "id": 29,
+        "name": "club brugge"
+    },
+    {
+        "id": 30,
+        "name": "marseille"
+    },
+    {
+        "id": 31,
+        "name": "krasnodar"
+    },
+    {
+        "id": 32,
+        "name": "ferencváros"
+    }
+]
