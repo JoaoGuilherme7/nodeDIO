@@ -1,0 +1,39 @@
+[
+    {
+        "podcastName": "flow",
+        "episode": "CBUM - Flow #319",
+        "videoId": "pQSuQmUfS30",
+        "categories": [
+            "esporte",
+            "bodybuilding"
+        ]
+    },
+    {
+        "podcastName": "flow",
+        "episode": "RUBENS BARRICHELLO - Flow #339",
+        "videoId": "4KDGTdiOV4I",
+        "categories": [
+            "esporte",
+            "corrida",
+            "F1"
+        ]
+    },
+    {
+        "podcastName": "flow",
+        "episode": "FAUSTO CARVALHO [JORGINHO] - Flow #370",
+        "videoId": "i9Y8uIE7HJI",
+        "categories": [
+            "comedia",
+            "stand-up"
+        ]
+    },
+    {
+        "podcastName": "Inteligência Ltda",
+        "episode": "O APOCALIPSE DE JOÃO: RODRIGO SILVA - Inteligência Ltda. Podcast #1187",
+        "videoId": "NooYVBIXKso",
+        "categories": [
+            "Deus",
+            "apocalipse"
+        ]
+    }
+]

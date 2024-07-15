@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+html {
+    font-size: 0.73vw;
+    /* font-size: 62.5%; */
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+header {
+    position: relative;
+    height: 7.0rem;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.0rem 2.0rem;
+}
+
+form {
+    display: flex;
+    background-color: #fff;
+    border-radius: 2.0rem;
+    overflow: hidden;
+    height: 3.2rem;
+    width: 40.0rem;
+
+}
+
+#queryString {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 0 1.0rem;
+    font-size: 1.3rem;
+
+}
+
+form input[type="submit"] {
+    border: none;
+    padding: 0 1.2rem;
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 1.3rem;
+    transition: .3s;
+    border-radius: 0 2.2rem 2.2rem 0;
+    background-color: #fff;
+    background-color: #eee;
+}
+
+
+main {
+    padding: 2.0rem;
+}
+
+.podcasts {
+    margin-top: 2.0rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    flex-wrap: wrap;
+    gap: 2.5rem;
+}
+
+.podcast {
+    height: 22.0rem;
+    width: 40.0rem;
+    border-radius: 1.0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: .5rem;
+    overflow: hidden;
+    background-size: cover;
+    background-position: -10%;
+    color: #fff;
+    transition: .5s;
+}
+
+.podcast .podName {
+    font-size: 1.4rem;
+}
+
+.podcast .podTitle {
+    font-size: 1.5rem;
+    width: max-content;
+}
+
+.podcast:hover {
+    box-shadow: .0rem .0rem 2.0rem .4rem #000;
+
+}
+
+.noPodcasts {
+    border-bottom: .1rem solid #ccc;
+    text-align: center;
+    padding-bottom: 1.5rem;
+    margin-bottom: 3.0rem;
+    display: none;
+}
+
+.homeBtn {
+    background-color: #fff;
+    padding: 0 1.0rem;
+    border-radius: 2.0rem;
+    color: rgb(84, 1, 161);
+    position: absolute;
+    left: 2.0rem;
+    transition: .3s;
+    height: 3.2rem;
+    display: flex;
+    align-items: center;
+}
+
+
+.homeBtn:hover,
+.homeBtn:focus,
+form input[type="submit"]:hover,
+form input[type="submit"]:focus {
+    background-color: blueviolet;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    border: .1rem solid #fff;
+    box-shadow: .0rem .0rem 1.0rem .2rem #fff;
+    outline: none;
+}
+
+@media screen and (max-width: 900px){
+
+    html{
+        font-size: 1.13vw;
+    }
+    
+    .podcasts{
+        grid-template-columns: repeat(2, 1fr);
+    }    
+    
+}
+
+@media screen and (max-width: 510px){
+
+    html{
+        font-size: 2.27vw;
+    }
+    
+    .podcasts{
+        grid-template-columns: repeat(1, 1fr);
+    }    
+
+    header{
+        justify-content: space-between;
+    }
+
+    form{
+        width: 28.0rem;
+    }
+
+    .homeBtn {
+        position: relative;
+        left: 0rem;
+    }
+    
+}
